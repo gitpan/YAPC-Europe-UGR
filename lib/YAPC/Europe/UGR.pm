@@ -7,7 +7,7 @@ use feature qw(say switch);
 use experimental qw(smartmatch);
 
 use version;
-our $VERSION = qv('0.2.0');
+our $VERSION = qv('0.2.1'); #Sunday surprise 
 
 use Exporter qw(import);
 our @EXPORT_OK = qw(pick_best_venue);
@@ -79,7 +79,7 @@ He has already organized other conferences in the past such as PPSN
 collaborated in the organization of other conferences such as CEC 2011
 or L<EvoStar 2014|http://evostar.org> (~150 persons), and many events
 such as NotBarraLibreCamp. He collaborated also with the organization
-of CIG 2012 (~100 persons), JENUI 2009 (local
+of CIG 2012 (~100 persons), JENUI 2008 (local
 conference on Informatics Teaching, ~100 persons).
 
 He has attended several Perl events in the past and made
@@ -89,17 +89,18 @@ Perl devrooms (2013, 2014).
 =item * Antonio Mora
 
 He was the local organizer for the L<Computational
-Inteligence in Games conference|http://geneura.ugr.es/cig2012/> and is
-currently a postdoc at the University of Granada.
+Intelligence in Games conference|http://geneura.ugr.es/cig2012/> and 
+the CoSECiVi 2014.
+He is currently a postdoc at the University of Granada.
 
 =item * Pedro Castillo
 
 He is a long-time Perl hacker and instructor.
 
 He is the head of the GeNeura research group who is also collaborating
-in the organization of this conference, and has been involved in the
-organization of several conferences, including CIG and CEDI (big
-Spanish annual CS event).
+in the organization of this conference, and has been involved in the 
+organization of all CEDI conferences (big Spanish annual CS event), 
+several PPSN, EvoStar, IWANN, JENUI2008 and the CIG2012.
 
 =item * Maribel Garcia Arenas
 
@@ -382,7 +383,7 @@ inconspicuously around PHP and Python developer conferences.
 =head2 Survey
 
 We are developing an app for creating a personal schedule, and as in
-past conferences, we'll use whatever people have scheduled
+past conferences, we will use whatever people have scheduled
 for creating a preference. Which will be probably for those
 dressed as Star Trek fleet ensigns or anything that is not
 simultaneous to talks by Damian, brian or Mark. This app will be connected to the services available in ACT.
@@ -446,20 +447,19 @@ buddies.
 
 =head2 Budget
 
-Now we're talking business. We will stick to the same registration costs as the
-last conference. Venue is free, since it's organized as an
+Now we are talking business. We have tried to stick to the same registration costs as the
+last conference. Part of the venue is low cost, since it is organized as an
 institutional (meaning university, as belonging to the
 University of Granada) event. The University of Granada covers insurance costs too.
 This will leave us some
 leeway to give a better attendees dinner.
 
-We are talking of a ballpark of 30K E<euro>. We will also apply to local
+We are talking of a ballpark of 30K E<euro> for the regular and expected scenario. We will also apply to local
 science funding agencies and the university to defray part of the
-cost. The Free Software Office will absorb any deficit (or, for
-that matter, surplus) if there is one, although this will depend on
-the source of the surplus. Since funding agencies pay the grant after
+cost. The Free Software Office will absorb any deficit if there is one. 
+Since funding agencies pay the grant after
 expenses have been incurred, in some cases years later, temporary
-deficit will have to be absorbed by the free software office and any
+deficit will have to be absorbed by the FSO and any
 surplus that is obtained after the conference also will go to the Free
 Software Office operating costs and a  local L<Free Software
 Prize|http://concursosoftwarelibre.org> to fund a special Perl-based
@@ -647,7 +647,7 @@ have not seen a single YAPC::Europe in Spain.
 
 =head2 Questions and Answers
 
-While we haven't been asked these questions by the organization, they
+While we have not been asked these questions by the organization, they
 were made to other proposers, so here are the questions that have not
 been answered before and some that were asked in the previous
 incarnation of the proposal. 
