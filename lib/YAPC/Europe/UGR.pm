@@ -7,7 +7,7 @@ use feature qw(say switch);
 use experimental qw(smartmatch);
 
 use version;
-our $VERSION = qv('0.2.2'); #Monday monotrem
+our $VERSION = qv('0.3.0'); #Friday final
 
 use Exporter qw(import);
 our @EXPORT_OK = qw(pick_best_venue);
@@ -105,7 +105,7 @@ several PPSN, EvoStar, IWANN, JENUI2008 and the CIG2012.
 =item * Maribel Garcia Arenas
 
 She is assistant professor at the University of Granada, with a PhD in
-Compute Science, and has been the organizer of several events, latest
+Computer Science, and has been the organizer of several events, latest
 one EvoStar 2014. She is sporadic Perl user, but makes up for that
 with her organizational flair. 
 
@@ -136,7 +136,7 @@ Kuperman and other members of the local Perl Mongers groups.
 =head3 Contact
 
 For the time being, the contact email for any matter related to this
-proposal is L<mailto:dirosl@ugl.es> (OSL direction address).
+proposal is L<mailto:dirosl@ugr.es> (OSL direction address).
 
 In case we win the bid, we will setup a new address @ugr.es specifically for
 supporting the event.
@@ -163,18 +163,17 @@ previewed, in principle, but if needed a meeting room with access to
 the university network will be arranged.
 
 The IT services at the University of Granada provides an easy way to
-set up WiFi guest access (limited to HTTP/HTTPS). EduRoam is also
+set up WiFi guest access. EduRoam is also
 available for those coming from an academic environment and it works
 without a glitch. The network is able to support up to 5k devices
-concurrently. If absolutely necessary, we can supply a limited amount
-of IPs with all-port access, mainly for speakers; also some physical
+concurrently. If absolutely necessary, we can supply some physical
 Ethernet connections, which will have to be shared by all the
-attendees. 
+attendees.
 
 We will provide backups for audiovisual equipment just in case it
 breaks down in the middle of the talk. Any of the university campuses
 has fixed projectors, as well as a few portable ones that can be used
-if needed. 
+if needed.
 
 Regardless of the university campus we choose, we will set up a
 couple of additional rooms for organizational purposes, storage,
@@ -185,7 +184,7 @@ student pool) to staff a help desk during the whole conference. We
 have already done that successfully at previous events. If they are
 from outside Granada, we will also pay (bus) trip and (student)
 lodging, as well as registration. These students will be used as
-technical support for all rooms, as well as countdown service,
+technical support for all rooms, as well as countdown service.
 
 All rooms that we will use in the conference are provided with air
 conditioning; these are usually in the ground floor of the university
@@ -204,7 +203,7 @@ with smaller audiences, we will use regular class-rooms which can
 hold up to fifty persons comfortably and are flat.
 
 We will have almost no restrictions on the usage of the university
-spaces as on August there is little, or none at all, academic
+spaces as in August there is little, or none at all, academic
 activity.
 
 This means that we can easily run five parallel tracks. However, in
@@ -327,7 +326,7 @@ areas.
 
 =head2 Conference Details
 
-It's going to be, AFAIK, the YAPC::EU southernmost conference, so this
+It is going to be, AFAIK, the YAPC::EU southernmost conference, so this
 fact will have to be taken into account in the details of the
 conference.
 
@@ -342,7 +341,7 @@ We propose I<The Art of Perl> as the conference theme.
 We believe that coding is a mix between craft and Art.
 
 As hackers, just solving problems is not enough for us. We also need
-to do it in elegant an beautiful ways!
+to do it in elegant and beautiful ways!
 
 When we are programming we create Art!
 
@@ -391,23 +390,23 @@ simultaneous to talks by Damian, brian or Mark. This app will be connected to th
 =head2 Additional Program
 
 Granada offers a great amount of options for people from 2 to
-22. Sorry, to 222. We'll organize a tapas crawl in the
+22. Sorry, to 222. We will organize a tapas crawl in the
 best watering holes of Granada, artistic trips through the
 graffiti art in Granada streets. And, yes, also Alhambra
-and all those things. We'll also organize courses for those
+and all those things. We will also organize courses for those
 interested and beginning courses in Spanish.
 
 =head3 Courses and tutorials
 
-No innovation here. We'll provide space during or preferably before
+No innovation here. We will provide space during or preferably before
 the conference so that people that want to give tutorial or
 courses can pay trip expenses giving them. The organization
 will only collect a racket, sorry, a cut for, you know,
 protection.
 
 For a boost of visibility (or outing) of the Spanish Perl community,
-we'll also provide courses in several levels in Spanish. Any
-other languages can also be arranged.
+we will also offer courses in several levels in Spanish. Any
+other languages can also be arranged, specially English
 
 =head3 Side Trips
 
@@ -553,25 +552,36 @@ which can be also used as a hub to reach us, although it is not the
 cheapest or even the fastest way to get here (maybe cheaper if used as
 a connection).
 
-Some price for return tickets to Granada; these are for next September 2013.
+Some price for return tickets to Granada; these are for next September
+2014, and of course might vary for  September 2015. You would have to
+add 3L<euro> bus
+ticket|http://www.aena-aeropuertos.es/csee/Satellite/Aeropuerto-Federico-Garcia-Lorca-Granada-Jaen/es/Page/1237554498674//Transporte-publico.html>
+or around 30L<euro> for a taxi ride. These are prices obtained using
+LastMinute.com, and to Granada itself. Going to Malaga would add
+around two hours and around 15E<euro> bus fare. 
 
 =over 4
 
-=item London: 246E<euro>
+=item London: lowest 226E<euro>, average around 275E<euro>. To Malaga: 128E<euro>.
 
-=item Paris: 227E<euro>
+=item Paris: lowest 206E<euro>, average around 300E<euro>. To Malaga: 137E<euro>.
 
-=item Rome: 271E<euro>
+=item Rome: lowest 226E<euro>, average around 260E<euro>. To Malaga:
+more or less the same. 
 
-=item Frankfurt: 364E<euro>
+=item Frankfurt: lowest 282E<euro>, average around 350E<euro>. To
+Malaga: 184E<euro>.
 
-=item Moscow: 505E<euro>
-
-=item Vienna: 326E<euro>
+=item Vienna: lowest 306E<euro>, average around 400E<euro>. To Malaga:
+lowest 169E<euro>.
 
 =back
 
-Most flights are in the 200-500E<euro> range. 
+Most flights are in the 200-400E<euro> range. After the MH17 incident,
+flights to Moscow have shot up to the stratosphere, so I have
+eliminated them. Flying to Malaga usually saves you some money,
+between 50 and 100E<euro> but in some cases it would add time to the
+trip (in most cases not, since it will be a direct flight).
 
 There are many more options to Malaga, which is a big airport, 
 including low-cost flights, but then you have to take a bus or 
@@ -690,8 +700,10 @@ range of the prices that can be expected for different levels of
 accommodation. Can most attendees fit in one hotel? Is Internet access
 widely available in accommodations?>
 
-I<This is taken almost verbatim from L<CIG 2012 site|http://geneura.ugr.es/cig2012/acommodation.html>,
-which Antonio Mora organized too.>
+I<This is taken almost verbatim from L<CIG 2012
+site|http://geneura.ugr.es/cig2012/acommodation.html>, which Antonio
+Mora organized too.> Prices should not have varied too much, although
+they will post new prices starting September 2014. 
 
 Granada is a city accustomed to a large touristic inflow, so its
 offers a huge number of accommodation options for all budgets. In
@@ -782,9 +794,10 @@ The assets are there, and it would be possible to record at least one
 of the tracks. That would be free for the conference, since the OSL is
 part of the IT dept of the university which includes the virtual
 department too. The ETSIIT includes also self-recording facilities in
-some classes, which we could use for some tracks. However, this is
+some classes, which we could use for some tracks (but this is not
+available in our preferred venue, Facultad de Ciencias). However, this is
 additional work and/or cost, so except for keynotes no plans to do any
-recording have been made. 
+recording have been made.
 
 =item B<Are any social events planned, other than the partner's program?>
 
@@ -804,7 +817,7 @@ well as in some cases free drinks and coffee. They can even be used
 overnight if needed.
 
 We will make a call for proposals so that CPAN authors can submit their
-modules for enhancements or bug quashing. We'll contact authors of
+modules for enhancements or bug quashing. We will contact authors of
 major Perl projects such as perl5i or parrot in case they are
 interested. This will be held either in the same place or, depending
 on the number of people, in smaller venues such as the L<Free Software
@@ -849,15 +862,15 @@ The usual four months before the conference.
 
 =item B<How many attendees do you expect?>
 
-As many as the other venues bidding for YAPC::EU. And then a bit more. 
+As many as the other venues bidding for YAPC::EU. And then a few more. 
 
 No, really. Granada is an attractive, history-laden city. In previous
 conferences we have organized, some attendees have mentioned the fact
 that they submitted papers to it because of the city. So attendance of
 around 400 people ("Expected" column in the budget) would be
 reasonable. But we have planned for any other scenario, including
-"Student invasion" (remember Granada is #1 Erasmus destination in
-Europe). 
+"Student invasion" (remember Granada is #1 Erasmus
+destination in Europe).
 
 =item B<Can you roughly estimate the portion of speakers (you mention 75 of
 them), early bird registrations, students, regular and business
@@ -888,6 +901,107 @@ for course credits to the university, so that they can get ECTS credits for
 attending and/or volunteering at the conference. All in all, 50 is a
 reasonable number. 
 
+
+=back
+
+
+=head2 NAQ (newly asked questions)
+
+These questions have been asked by the committee after the submission
+
+=over 
+
+=item B<You write:
+"We will have almost no restrictions on the usage of the university
+spaces as in August there is little, or none at all, academic activity."
+But further down below you say:
+"best date for YAPC ... would be early September".
+In case the dates of the conference are in September, will it
+dramatically influence the availability of conference rooms, Wi-Fi
+capacity and bar availability?>
+
+Not really. Peek capacity of university buildings is fulfilled at class time, not during examinations, which usually have only one by degree per day or every other day. Ciencias hosts many degrees, but even so capacity will be 90% or more free at any particular day. So even if there are examinations taking place at that time, there will be plenty of room available. Of course, if booked in advance, which we will, we will be able to use prime real estate.
+
+=item B<How far exactly is The Computer Science School from the city centre
+and what public transport is available?>
+
+It is not at walking distance, around 10 minutes by taxi, and your mileage by public transport might vary, but not too much. There are three bus lines that stop close to it, two of them linked to the high-capacity bus line that goes through the city center every 2-3 minutes. However, in this bid it is only our fallback option in case attendance hovers around 250 or less (which probably will not happen).
+
+=item B<It looks like the attendees will be disappointed to find out that
+Wi-Fi in the venue does not allow SSH connection (or allow it for a
+limited number of connections). Is there a chance to change this?>
+
+In fact we recently discovered that guest accounts do have access to a
+reasonable amount of ports. We have changed the proposal to reflect
+this. 
+
+
+=item B<You say that if there will be less than 250 attendees, you might
+choose a different venue? It sounds impossible to implement, as you
+only will be able to know the exact (still, a bit vague) number a few
+days before the conference, when you cannot change the venue. Even if
+you pre-order more than one venue, attendees must know the address
+well in advance so that they can book their hotels.>
+
+We will have a first approximation after the conference in Sofia, which will be our guide. At any rate, we will reserve the biggest one and should see the others only as fallback options, much cheaper, in case those target is not met. 
+
+Hotels will be pretty much the same ones in any case. The two first options are back to back, the third are a bit further away, but there are no hotels that cater to it specifically. In fact, the "official" hotel we have proposed is almost as far from one as from the other. 
+
+=item B<How much time are you going to reserve for the lunch breaks? Will 60
+minutes be enough or you need 90? 300+ people is a big crowd and even
+if it is distributed between a few pubs, it is difficult to serve all
+of them fast enough.>
+
+The usual 2 hours in Spain. Our experience, however, tells us that it is no too difficult even in 90 minutes, but we will leave 2 hours, which is usual even if we have a buffet or a sit-down lunch. 
+
+
+=item B<How difficult is serving lunches inside the venues and why you
+consider it an alternative option, not the main one?>
+
+Serving lunches in the venue should have to be buffet style, since
+there is not sitting space in the cafeteria. A zone of the main hall
+would have to be cordoned off to serve food and food would have to be
+brought by a catering service from outside. This would all add to the
+cost (since we would have to pay for the space, food and service) and
+we would have international buffet-style food instead of the
+quintessential tapas experience.  Not a big deal doing it if
+absolutely required, only the budget would have to be up a bit. 
+
+
+=item B<The conference theme you choose, "The Art of Perl", was already the
+theme of the YAPC::Europe in 2000.>
+
+Do you mean that the art of Perl was over in 2000? We do like the topic, and if possible, we would like to keep it. Maybe changing it a bit to "Art as engineering, engineering as art", or much better, Art ~~ Engineering.
+
+=item B<Air tickets in the proposal are dated as "September 2013". Is it a
+typo or the prices are outdated?>
+
+Prices haven't changed much, except for Moscow, which is to all
+effects unreachable (but the situation might change next year). I have
+updated prices and also added estimation of prices to Malaga, which
+are in most cases lower (except for Rome, for reasons we cannot fathom).
+
+=item B<Can you give a rough estimation of the total door-to-door travel time
+from a couple of European capitals outside Spain, including air and
+land segments, waiting time for connections and time to get from the
+airport to the train station, for example?>
+
+No. Because we would have to ask the local taxi/Uber/blablacardrivers how much would we have to pay from the door of some individual person in some place, and European Union regulations forbid that.
+
+However, we will provide an estimation of airport-to-hotel in Granada cost. 
+
+=item B<Will you be able to provide a laptop for the speaker if he has none
+(rare but still possible case)?>
+
+Sure. Any of the places pre-selected have computers or laptops in every room, and the free software office always has 2-3 (recycled) laptops which we use for this kind of events. 
+
+=item B<When are you planning to start and finish the conference day?>
+
+In Spain times are usually 9 to 18-19, with around 2 hours in the middle for lunch and siesta. In principle, we will try to fit it to 9 to 18, but we will leave options open for light activity after 18 hours.
+
+=item B<In case of failure, will you submit your proposal next year?>
+
+Third is the charm, or so it's said. But, wait, is that a trick question?
 
 =back
 
